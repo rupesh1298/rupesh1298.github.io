@@ -5,10 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        a:hover{
+            color:yellow;
+            border-top:2px solid red;
+            text-decoration: underline;
+        }
+        a:active{
+            color: hotpink;
+        }
+        
+        span{
+            color: black    ;
+        }
+        .image{
+            display:flex;
+            margin: auto;
+            margin-top: 100px;
+            width: 1200px;
+           height: 500px;
+           border-radius: 100px 0px;
+            background-color: aliceblue;
+        }
+        .login{
+            margin-left:-100px;
+            margin-top: 0px;
+        }
+        .body{
+            background-color: blueviolet;
+        }
+        .img{
+            margin-top:10px;
+            width: 1000px;
+        }
+        .pass{
+            margin-top:40px;
+        }
+        .form{
+            background-color: darkviolet;
+            border-radius: 20px;
+            width: 300px;
+            height:400px;
+        }
+    </style>
 </head>
-<body>
-    <pre>Hello Everyone.....
-        Rupesh is here
-    </pre>
+<body class="body">
+   <div style="background-color:rgb(66, 3, 93);height:40px;font-size:29px;color: antiquewhite;align-items:baseline;border-radius: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><a href=#>Home</a></span> &nbsp;&nbsp;&nbsp;&nbsp;<span ><a href="https://github.com/rupesh1298?tab=repositories">About Us</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="mailto:rchincholkar1234@gmail.com">Contact me</a></span></div>
+        <div class="image">
+            <!-- <img src="https://i.ytimg.com/vi/xboZclZDsGs/maxresdefault.jpg" class="img"/> -->
+            <div style="width: 800px;margin-left: 30px;font-size: 150px;">WE ARE HERE FOR YOU !!!!</div>
+            <div style="margin-top: 35px;">
+                <form class="form">
+                <h1 align="center" style="color: white;">Login</h1><br>
+                <div style="margin-left: 50px;">
+                    <div>
+                        <label for="nm" style="color: white;">
+                           <b> Username</b>
+                        </label><br>
+                        <input type="text" name="nm" id="nm" style="border-radius:10px;width: 200px;height: 25px;margin-top: 4px;border-color: white;"placeholder="Enter username" >
+                    </div>
+                    <div class="pass" style="color: white;">
+                        <label for="pass">
+                            <b>Password</b>
+                        </label><br>
+                        <input type="password" name="nm" id="pass" style="border-radius:10px;width: 200px;height: 25px;margin-top: 4px;border-color: white;"placeholder="Enter username">
+                    </div>
+                </div>
+                
+               <div style="margin-left: 50px;">
+                <div style="margin-top: 20px;">
+                    <input type="checkbox" name="tick">
+                <label for="tick" style="color: white;"><b>Remember me</b></label>
+                </div><br>
+                <div style="margin-left: 30px;">
+                <a href="#">Forget Your password ?</a>
+                </div>
+               </div>
+               <button style="margin-top: 30px;margin-left: 90px;width: 140px;font-size: 21px;border-radius: 10px;background-color: rgb(238, 238, 50);color: white;border-color: rgb(238, 238, 50) ;">LOGIN</button>
+                    </form>
+                    
+              </div>
+              </div>
 </body>
 </html>
